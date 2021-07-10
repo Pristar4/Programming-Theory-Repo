@@ -28,7 +28,16 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public virtual void DoDamage(int damage)
+
+
+
+    public virtual void CheckRange()
+    {
+        
+        //Check if player is in Attack Range
+    }
+
+    public virtual void Attack(int damage)
     {
         // if player is in Range do damage
         
