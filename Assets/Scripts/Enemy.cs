@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
    
 
 
-    public virtual void bAttack(int damage)
+    public virtual void Attack(int damage)
     {
         // if player is in Range do damage
     }

@@ -1,0 +1,22 @@
+
+=== Sun Jul 11 12:46:24 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ugui@1.0.0
+
+=== Sun Jul 11 19:58:16 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.nvidia@1.0.0
+The following packages were updated:
+  com.unity.cinemachine from version 2.6.5 to 2.8.0-pre.1
+  com.unity.ide.rider from version 2.0.7 to 3.0.7
+  com.unity.timeline from version 1.4.8 to 1.6.0-pre.5
+The following packages were removed:
+  com.unity.quicksearch@2.0.2
