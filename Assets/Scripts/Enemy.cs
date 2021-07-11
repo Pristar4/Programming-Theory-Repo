@@ -2,7 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = System.Random;
+using UnityUtils;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class Enemy : MonoBehaviour
     public int Speed = 10;
     public HealthBar healthBar;
     public bool isdead = false;
+    [SerializeField] private float distance;
+
+    public Rigidbody rb;
+
 
     private void Awake()
     {
@@ -27,20 +32,12 @@ public class Enemy : MonoBehaviour
             healthBar.SetHealth(_currenthealth);
         }
     }
+  
+   
 
 
-
-
-    public virtual void CheckRange()
-    {
-        
-        //Check if player is in Attack Range
-    }
-
-    public virtual void Attack(int damage)
+    public virtual void bAttack(int damage)
     {
         // if player is in Range do damage
-        
     }
-    
 }
